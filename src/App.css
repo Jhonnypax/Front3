@@ -1,0 +1,28 @@
+#root {
+  text-align: center;
+  color: black
+}
+
+nav, footer{
+  width: 98.7vw;
+  background-color: tomato;
+  display: flex;
+  justify-content: space-around;
+}
+/* footer{
+
+} */
+.list{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.btn-group{
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+}
+.btn-group button{
+  margin: 10px;
+  height: 40px;
+}
